@@ -2,7 +2,9 @@
 #include "screen.h"
 //#include "serial.h"
 #include "wifi.h"
-#include "config.h"
+
+String ssid = "ThePools";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "eltjolovesdeanna";     // The password of the Wi-Fi network
 
 void loop() {
     //show_text(get_serial_data());

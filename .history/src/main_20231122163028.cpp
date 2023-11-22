@@ -2,7 +2,7 @@
 #include "screen.h"
 //#include "serial.h"
 #include "wifi.h"
-#include "config.h"
+#include "passwords.h"
 
 void loop() {
     //show_text(get_serial_data());
