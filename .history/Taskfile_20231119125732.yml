@@ -1,0 +1,9 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  Start PuTTY:
+    cmds:
+      - ps -p $(ps -p $$ -o ppid=) -o args=
+    silent: true
